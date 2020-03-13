@@ -32,6 +32,8 @@ Explain how a blockchain is structured. What are the blocks, what is the chain? 
 The blockchain is a decentralised distributed database(chain) of immutable records(blocks), similar to a linked list. 
 A block basically contains a timestamp, transaction history, proof(for later validation of proof of work used to mine the block), an index and a sha256 hashed pointer to the previous block. What makes the chain so secured is that you cannot remove or change any block without altering the hashes.
 
+The chain is the structure that contains all of the transactions recorded
+
 
 Explain how proof of work functions. How does it operate. How does this protect the chain from attack. What kind of attack is possible?
 Proof of work functions  is a consensus algorithm used to confirm transactions and add blocks to the blockchain.  Basically, given an incredibly hard brute-force computation problem to solve individually, it is distributed among a pool of miners, who "compete" against each other to complete the transactions and get the miners fee. 
